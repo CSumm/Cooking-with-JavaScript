@@ -1,11 +1,11 @@
 # Cooking-with-JavaScript
-We're here to learn JavaScript, but in a fun way. Most of the time, things get too theoretical and you're left scratching your head and feeling like giving up. It doesn't need to be that way. Today, we're going to make an omelette recipe in JavaScript.
+We're here to learn *JavaScript*, but in a fun way. Most of the time, things get too theoretical and you're left scratching your head and feeling like giving up. It doesn't need to be that way. Today, we're going to make an omelette recipe in JavaScript.
 
 Ok first things first, here's the recipe we're going to use: https://www.incredibleegg.org/recipe/basic-french-omelet/
 
 Nothing too fancy, just a basic omelette.
 
-The first thing is to get our ingredients prepped. We need 2 eggs, 2tbps. of water, 1/8 tsp. of salt, a dash of pepper, 1 tsp of butter, and 1/3 cup of filling (anything we want :P);
+The first thing is to get our ingredients prepped. We need **2 eggs, 2tbps. of water, 1/8 tsp. of salt, a dash of pepper, 1 tsp of butter, and 1/3 cup of filling** (anything we want :P);
 
 So, let's break our ingredients into their own containers, or in this case variables.
 
@@ -46,19 +46,20 @@ Cool! 1 tsp of butter. Using my trusty power of Google searching, we find out it
  *Sidenote: Ever noticed how recipes have action verbs? They are actions or things to do, and that's what we're covering next!*
  
  We got all our ingredients ready to go, let's get cooking. First thing is to beat the eggs, water, salt and pepper. We can do this as a task, or in JavaScript terms, a function, like this:
- 
- ```function beat(){
+ ```
+ function beat(){
  
  }
  ```
  This is how a basic function looks in JavaScript. We'll take it step by step. We need the ingredients we have from before to use inside this task, so we can get them like this:
- 
- ```function beat(eggs, water, salt, pepper){
+  ```
+function beat(eggs, water, salt, pepper){
  
  }
  ```
  This function can take as many parameters as it needs to get the job done, so here we need eggs, water, salt and pepper. Let's take a look what's next. It says *until blended*, so it's safe to say it's not blended to start with? Cool, another boolean:
- ```function beat(eggs, water, salt, pepper){
+ ```
+ function beat(eggs, water, salt, pepper){
  var blended = false;
  }
  ```
@@ -66,7 +67,8 @@ Cool! 1 tsp of butter. Using my trusty power of Google searching, we find out it
  
  So how long does it say until blended? We don't really know. But let's do a certain amount of turns of our spatula to make sure it's nice and smooth. Next up is what we call a for loop.
  
- ```function beat(eggs, water, salt, pepper){
+ ```
+ function beat(eggs, water, salt, pepper){
  var blended = false;
  
  for(var turns = 0; turns <=10; turns++){
