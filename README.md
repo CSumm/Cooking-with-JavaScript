@@ -35,6 +35,7 @@ Cool! 1 tsp of butter. Using my trusty power of Google searching, we find out it
  var onion = 1;
  var garlic = 3;
  var cheese = "YES!"
+ var mushrooms = 4;
  ```
  
  Before we go any further into cooking, we need some other variables. More specifically, we need to check when the omelette is done. Usually, it's either done, or it's not. We call this a boolean statement. So, without further a do, a boolean statement called done:
